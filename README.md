@@ -1,7 +1,5 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-## Codeanywhere Template Instructions
-
 Welcome,
 
 This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions. Click the `Use this template` button above to get started.
@@ -19,20 +17,20 @@ You can safely delete the Codeanywhere Template Instructions section of this REA
 1. Paste in the URL you copied from GitHub earlier
 
 1. Click Create
+2. 
+3. Wait for the workspace to open. This can take a few minutes.
 
-1. Wait for the workspace to open. This can take a few minutes.
+4. Open a new terminal and <code>pip3 install -r requirements.txt</code>
 
-1. Open a new terminal and <code>pip3 install -r requirements.txt</code>
+5. In the terminal type <code>pip3 install jupyter</code>
 
-1. In the terminal type <code>pip3 install jupyter</code>
+6. In the terminal type <code>jupyter notebook --NotebookApp.token='' --NotebookApp.password=''</code> to start the jupyter server.
 
-1. In the terminal type <code>jupyter notebook --NotebookApp.token='' --NotebookApp.password=''</code> to start the jupyter server.
+7. Open port 8888 preview or browser
 
-1. Open port 8888 preview or browser
+8. Open the jupyter_notebooks directory in the jupyter webpage that has opened and click on the notebook you want to open.
 
-1. Open the jupyter_notebooks directory in the jupyter webpage that has opened and click on the notebook you want to open.
-
-1. Click the button Not Trusted and choose Trust.
+9. Click the button Not Trusted and choose Trust.
 
 Note that the kernel says Python 3. It inherits from the workspace so it will be Python-3.8.12 as installed by our template. To confirm this you can use <code>! python --version</code> in a notebook code cell.
 
@@ -92,7 +90,7 @@ To save time in this process, the IT team suggested an ML system that detects in
 * The App live link is: https://YOUR_APP_NAME.herokuapp.com/ 
 * Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
 * The project was deployed to Heroku using the following steps.
-
+* 
 1. Log in to Heroku and create an App
 2. At the Deploy tab, select GitHub as the deployment method.
 3. Select your repository name and click Search. Once it is found, click Connect.
