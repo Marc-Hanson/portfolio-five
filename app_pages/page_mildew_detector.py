@@ -4,11 +4,9 @@ import numpy as np
 import pandas as pd
 
 from src.data_management import download_dataframe_as_csv
-from src.machine_learning.predictive_analysis import (
-    load_model_and_predict,
-    resize_input_image,
-    plot_predictions_probabilities
-)
+from src.machine_learning.predictive_analysis import load_model_and_predict
+from src.machine_learning.predictive_analysis import resize_input_image
+from src.machine_learning.predictive_analysis import plot_predictions_probabilities
 
 
 def page_mildew_detector_body():
@@ -53,7 +51,3 @@ def page_mildew_detector_body():
             st.table(df_report)
             st.markdown(download_dataframe_as_csv(
                 df_report), unsafe_allow_html=True)
-
-    st.write(
-        f"For additional information, please visit and **read** the "
-        f"[Project README file](https://github.com/cla-cif/Detection-Cherry-Powdery-Mildew#readme).")
