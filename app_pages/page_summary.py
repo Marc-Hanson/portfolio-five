@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 def page_summary_body():
 
-    st.write("### Quick Project Summary")
+    st.write("### Project Summary")
 
     st.info(
         f"**General Information**\n"
@@ -17,7 +17,7 @@ def page_summary_body():
         f" developing fruit from accumulating spores on their surfaces.\n\n"
         f"**Project Dataset**\n"
         f"* The available dataset contains 4208 leaves, split exactly in half with 2104 healthy leaves "
-        f"and 2104 infected leaves. These photos are taken with a neutral background.")
+        f"and 2104 infected leaves. These photos are taken with a plain background.")
 
     st.write(
         f"* For additional information, please visit and **read** the "
