@@ -1,10 +1,8 @@
 # **Powdery Mildew in Cherry Leaves**
 
 The deployed site can be visited by clicking [**here**](https://portfolio-five-e905b6564a53.herokuapp.com/).
-
 The site code can be viewed in this [**GitHub Repository**](https://github.com/Marc-Hanson/portfolio-five).
-
-I designed the app for submission as my 'Portfolio Project 5', part of the [**Code Institute Fullstack Software Development Diploma**](https://codeinstitute.net/ie/full-stack-software-development-diploma/). The aim of this project is to build a full-stack site based on business-oriented logic, used to control a centrally-owned dataset. A requirement is to set up an authentication mechanism and provide role-based access to the site's data, and for the site to be fully deployed for public use. The required technologies for the project are:
+  I designed the app for submission as my 'Portfolio Project 5', part of the [**Code Institute Fullstack Software Development Diploma**](https://codeinstitute.net/ie/full-stack-software-development-diploma/). The aim of this project is to provide a client with a interactive dashboard that can be used in real time to predict infection of cherry leaves to satisfy their business needs.
 
 ## **Table of Contents**
 
